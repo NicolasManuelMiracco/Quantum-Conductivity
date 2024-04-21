@@ -1,2 +1,5 @@
-# Quantum-Conductivity
-A C++ program that models semiconductor conductivity using quantum mechanics principles by simulating qubit behavior in atoms.
+# Quantum-Conductivity-Simulator
+
+One-line description: A C++ program that models semiconductor conductivity using quantum mechanics principles by simulating qubit behavior in atoms.
+
+Summary: This C++ program utilizes quantum mechanical concepts to simulate the conductivity of semiconductors. It includes classes representing `Qubit`, `Atom`, and `Semiconductor`. The `Qubit` class encapsulates a quantum bit with a complex probability amplitude, ensuring the qubit's state is normalized. The `Atom` class simulates an atom by generating a specified number of qubits with random quantum states. The `Semiconductor` class aggregates multiple atoms of carbon and silicon, each modeled with a specific number of electrons (qubits). The program computes the overall conductivity probability across these atoms, adjusting for a cumulative probability with additional electrons if needed to simulate realistic semiconductor behavior. This simulation can be utilized to study and predict the behavior of electrons in semiconductors under quantum mechanical effects.
